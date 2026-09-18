@@ -27,6 +27,39 @@
 //  jog(310)
 
 
-// ============================= Function Arrow ===============================
+// ============================= Function Expression ===============================
+// ------------------- Arrow Function --------------------
 
+// let biyog = (a = 0, b = 0)=>{
+//     console.log(a-b)
+// }
+// biyog(10,5)
+// ------------- return ------------
 
+// let biyog = (a = 0, b = 0)=>{
+//     return (a-b)
+// }
+// let x = biyog(10,5)
+// console.log(x)
+// let y = biyog(100,5)
+// console.log(y)
+
+// let hi = ()=>{
+//     console.log("hi")
+// }
+// hi()
+// let hello = ()=>{
+//     console.log("hello")
+// }
+// hello()
+// ------------------ call back ---------------
+
+function calculate(num1,num2,total){
+    const sum = num1 + num2;
+    total (sum);
+}
+calculate (20, 40, logResult);
+function logResult(result){
+console.log(`The answer is: ${result}`)
+
+}
