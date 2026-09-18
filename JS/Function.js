@@ -61,5 +61,4 @@ function calculate(num1,num2,total){
 calculate (20, 40, logResult);
 function logResult(result){
 console.log(`The answer is: ${result}`)
-
 }
