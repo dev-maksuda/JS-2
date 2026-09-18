@@ -52,7 +52,7 @@
 //     console.log("hello")
 // }
 // hello()
-// ------------------ call back ---------------
+// ------------------ call back function ---------------
 
 function calculate(num1,num2,total){
     const sum = num1 + num2;
